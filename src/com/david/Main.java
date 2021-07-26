@@ -1,8 +1,18 @@
+
 package com.david;
 
-public class Main {
+import java.util.Date;
 
+
+public class Main {
     public static void main(String[] args) {
-	    System.out.println("hola mundo");
+        String sentence = "my first sentence";
+        char a = 'A';
+        int n = 23;
+	    System.out.println(n*n);
+	    System.out.println(sentence);
+	    Date todaysDate = new Date();
+	    System.out.println(todaysDate);
+
     }
 }
